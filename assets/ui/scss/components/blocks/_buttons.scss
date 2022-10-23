@@ -1,0 +1,114 @@
+/* ==========================================================================
+   Blocks - Buttons
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+.btn {
+    @include box-shadow();
+    display: inline-block;
+    padding: .7em 1.5em;
+    margin: 0;
+
+    background: none;
+    background-color: $white;
+
+    border: 1px solid $hr-color;
+
+    -webkit-appearance: none;
+
+    color: $text-color;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+
+    transition: background .3s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: darken($white, 5%);
+
+        color: $text-color;
+        text-decoration: none;
+    }
+
+    &:active,
+    &:focus {
+        outline: 0;
+    }
+
+    &[disabled],
+    fieldset[disabled] & {
+        opacity: .65;
+
+        cursor: not-allowed;
+        pointer-events: none;
+    }
+}
+
+
+/* Types
+   ========================================================================== */
+// Primary
+.btn--primary {
+    background-color: $brand-primary;
+
+    border-color: $brand-primary;
+
+    color: $white;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: lighten($brand-primary, 5%);
+
+        color: $white;
+    }
+}
+
+// Secondary
+.btn--secondary {
+    background-color: $brand-primary--dark;
+
+    border-color: $brand-primary--dark;
+
+    color: $white;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: lighten($brand-primary--dark, 5%);
+
+        color: $white;
+    }
+}
+
+
+/**
+ * @section Buttons
+ * @sectionof Blocks
+ */
+
+/**
+ * @doc docs/buttons.md
+ * @section
+ * @sectionof Blocks.Buttons
+ */
+
+/**
+ * @doc docs/buttons-types.md
+ * @section
+ * @sectionof Blocks.Buttons
+ */
+
+/**
+ * @doc docs/buttons-sizes.md
+ * @section
+ * @sectionof Blocks.Buttons
+ */

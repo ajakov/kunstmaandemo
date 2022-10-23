@@ -1,0 +1,9 @@
+kunstmaan_page_part:
+    pagetemplates:
+        contentpage_with_submenu:
+            name: "Content page with submenu"
+            rows:
+                - regions:
+                    - { name: "main", span: 12 }
+                    - { name: "submenu", span: 12, template: "Layout/submenu.html.twig" }
+            template: "Pages\\ContentPage\\pagetemplate.html.twig"

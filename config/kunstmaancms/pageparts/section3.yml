@@ -1,0 +1,8 @@
+kunstmaan_page_part:
+    pageparts:
+        section3:
+            name: "Section 3"
+            context: "section3"
+            extends: "main"
+            types:
+                - { name: "Service", class: "App\\Entity\\PageParts\\ServicePagePart" }

@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Structures - Blog item
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+.blog-item--summary {
+    padding-bottom: 2em;
+
+    border-bottom: 1px solid $grey--light;
+
+    .blog-item__head__title {
+        margin-bottom: 10px;
+
+        font-weight: 400;
+        text-transform: none;
+    }
+}
+
+
+/* Title
+   ========================================================================== */
+.blog-item__head {
+    margin-top: 35px;
+}
+
+.blog-item__head__meta {
+    color: $grey;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.blog-item__head__title {
+    margin-top: 0;
+}
+
+
+/* Read more
+   ========================================================================== */
+.blog-item__read-more {
+    margin: 0;
+}
+
+
+/**
+* @section Blog item
+* @sectionof Structures
+*/
+
+/**
+* @doc docs/blog-item.md
+* @section
+* @sectionof Structures.Blog item
+*/
+
+/**
+* @doc docs/blog-item-summary.md
+* @section
+* @sectionof Structures.Blog item
+*/

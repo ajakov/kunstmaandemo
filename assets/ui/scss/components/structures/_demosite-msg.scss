@@ -1,0 +1,100 @@
+/* ==========================================================================
+   Structures - Demosite msg
+   ========================================================================== */
+
+.demosite-msg__wrapper {
+    position: relative;
+    z-index: 100;
+
+    margin-bottom: -26px;
+    transform: translate3d(0, 0, 0);
+
+    text-align: center;
+
+    &:hover,
+    &:focus,
+    &:active {
+        .demosite-msg {
+            background: lighten($brand-primary, 5%);
+        }
+
+        .demosite-msg__btn {
+            &:after {
+                border-color: lighten($brand-primary, 5%) transparent transparent transparent;
+            }
+        }
+    }
+
+    @media (min-width: $screen-md-min) {
+        margin-bottom: -20px;
+    }
+}
+
+.demosite-msg {
+    background: $brand-primary;
+
+    p {
+        color: $white;
+        font-size: 12.8px;
+    }
+
+    a {
+        color: $white;
+        text-decoration: underline;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $brand-primary--dark;
+        }
+    }
+
+    .toggle-item__content {
+        padding: 24px;
+
+        p {
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+
+.demosite-msg__btn {
+    position: relative;
+
+    width: 72px;
+    height: 22px;
+    margin-top: -10px;
+
+    background: none;
+    box-shadow: none;
+
+    border: none;
+
+    color: $white;
+    font-size: 8px;
+    text-align: center;
+
+    &:after {
+        content: '';
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -5;
+
+        transform: rotate(360deg);
+
+        border-width: 26px 36px 0;
+        border-color: $brand-primary transparent transparent transparent;
+        border-style: solid inset inset;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        background: none;
+
+        color: $white;
+    }
+}

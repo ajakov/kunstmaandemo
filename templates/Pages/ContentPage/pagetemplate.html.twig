@@ -1,0 +1,8 @@
+<div class="container">
+
+    {{ render_pageparts(page, 'main') }}
+
+        <div class="submenu">
+        {% include 'Layout/submenu.html.twig' with {'page': page} %}
+    </div>
+    </div>

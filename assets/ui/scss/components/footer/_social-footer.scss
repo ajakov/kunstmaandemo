@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Footer - Social footer - THEME FILE
+   ========================================================================== */
+
+/* Inner
+   ========================================================================== */
+.social-footer__inner {
+    padding: 1.5em 0;
+
+    border-bottom: 2px solid $hr-color;
+
+    @media (min-width: $screen-sm-min) {
+        padding: 2.5em 0;
+    }
+}
+
+
+/* Link
+   ========================================================================== */
+.social-footer__link {
+    margin-right: 15px;
+
+    color: $grey;
+    font-size: 1.1em;
+
+    transition: color .3s ease;
+
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none;
+    }
+}

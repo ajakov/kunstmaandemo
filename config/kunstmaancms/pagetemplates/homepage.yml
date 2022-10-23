@@ -1,0 +1,13 @@
+kunstmaan_page_part:
+    pagetemplates:
+        homepage:
+            name: "Home page"
+            rows:
+                - regions:
+                    - { name: "header", span: 12 }
+                    - { name: "section1", span: 12 }
+                    - { name: "section2", span: 12 }
+                    - { name: "section3", span: 12 }
+                    - { name: "section4", span: 12 }
+                    - { name: "section5", span: 12 }
+            template: "Pages\\HomePage\\pagetemplate.html.twig"

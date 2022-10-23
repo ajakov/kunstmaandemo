@@ -1,0 +1,8 @@
+kunstmaan_page_part:
+    pageparts:
+        section4:
+            name: "Section 4"
+            context: "section4"
+            extends: "main"
+            types:
+                - { name: "Usp", class: "App\\Entity\\PageParts\\UspPagePart" }

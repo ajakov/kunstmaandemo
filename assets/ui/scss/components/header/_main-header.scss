@@ -1,0 +1,88 @@
+/* ==========================================================================
+   Header - Main header
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+.main-header {
+    padding: 14px 0;
+}
+
+
+/* Logo
+   ========================================================================== */
+.main-header__logo {
+    display: block;
+    width: 100%;
+    height: $logo-height-mobile;
+
+    text-align: center;
+
+    @media (min-width: $screen-md-min) {
+        float: left;
+
+        width: auto;
+    }
+}
+
+
+/* Nav wrapper (desktop only)
+   ========================================================================== */
+.main-header__nav {
+    float: right;
+}
+
+
+/* Mobile
+   ========================================================================== */
+// General
+.main-header--mobile {
+    position: relative;
+
+    @media (min-width: $screen-md-min) {
+        display: none;
+    }
+}
+
+// Toggle Button
+.main-header--mobile__toggle-btn {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index: 2;
+
+    padding: 1.2em 1.2em 1.2em 0;
+
+    box-shadow: none;
+
+    border: 0;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background: $white;
+    }
+}
+
+
+/* Desktop
+   ========================================================================== */
+// General
+.main-header--desktop {
+    display: none;
+
+    @media (min-width: $screen-md-min) {
+        display: block;
+        height: 58px;
+
+        border-bottom: 2px solid $hr-color;
+    }
+}
+
+// Homepage
+.homepage {
+    .main-header--desktop {
+        border-bottom: 0;
+    }
+}
+

@@ -1,0 +1,6 @@
+kunstmaan_page_part:
+    pagetemplates:
+        blogoverviewpage:
+            name: "Blog overview page"
+            rows: []
+            template: "Pages\\BlogOverviewPage\\pagetemplate.html.twig"

@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Pageparts - Link pp
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+.link-pp {
+    margin: $default-margin 0;
+
+    font-size: 15px;
+
+    a {
+        display: inline-block;
+
+        color: $black;
+        font-weight: 600;
+    }
+}
+
+/* Link
+   ========================================================================== */
+.link-pp__link {
+    display: inline-block;
+
+    color: $black;
+    font-weight: 600;
+}
+
+
+/* Icon
+   ========================================================================== */
+.link-pp__icon {
+    @extend %icon--arrow-right;
+
+    display: inline-block;
+    margin-left: 9px;
+
+    font-size: 9px;
+
+    &:before {
+        @include iconfont-reset();
+    }
+}
+
+/**
+* @doc docs/link-pp.md
+* @section
+* @sectionof Pageparts
+*/

@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Structures - Splash
+   ========================================================================== */
+
+.splash {
+    margin: 70px 0;
+}
+
+.splash--primary {
+    background-color: $brand-primary;
+}
+
+.splash--gray-lighter {
+    padding: 40px 0;
+
+    background-color: $grey--lighter;
+}
+
+.splash--smaller-margin {
+    margin-bottom: 40px;
+}
+
+
+/**
+* @doc docs/splash.md
+* @section
+* @sectionof Structures
+*/

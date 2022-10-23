@@ -1,0 +1,7 @@
+kunstmaan_page_part:
+    pageparts:
+        header:
+            name: "Header"
+            context: "header"
+            types:
+                - { name: "PageBanner", class: "App\\Entity\\PageParts\\PageBannerPagePart" }

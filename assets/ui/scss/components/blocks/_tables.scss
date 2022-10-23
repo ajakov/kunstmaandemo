@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Blocks - Tables
+   ========================================================================== */
+
+/* Default
+   ========================================================================== */
+.table-overflow-container {
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+table {
+    width: 100%;
+    margin: $default-margin 0;
+
+    @media (min-width: $screen-md-min) {
+        width: 70%;
+    }
+}
+
+tr {
+    border-bottom: 1px solid $hr-color;
+}
+
+th,
+td {
+    padding: .5em 1.5em .5em .1em;
+
+    text-align: left;
+}
+
+th {
+    color: $brand-primary;
+    font-weight: 600;
+}
+
+td {
+    font-weight: 300;
+    text-align: left;
+}
+
+
+/**
+ * @section Tables
+ * @sectionof Blocks
+ */
+
+
+/**
+ * @doc docs/table.md
+ * @section
+ * @sectionof Blocks.Tables
+ */
+
+/**
+ * @doc docs/table-overflow.md
+ * @section
+ * @sectionof Blocks.Tables
+ */

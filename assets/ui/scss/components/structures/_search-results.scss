@@ -1,0 +1,48 @@
+/* ==========================================================================
+   Structures - Search results
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+.search-results__wrapper {
+    padding: 2em;
+
+    background: $grey--lighter;
+
+    .search-results__input {
+        @include box-shadow();
+
+        width: calc(100% - 90px);
+        max-width: 100%;
+        margin-right: 13px;
+    }
+}
+
+/* Input field and button
+   ========================================================================== */
+.search-results__form-group {
+    @include clearfix();
+}
+
+.search-results__input,
+.search-results__button {
+    float: left;
+}
+
+.search-results__button {
+    min-height: 45px;
+    padding: 0 1.5em;
+}
+
+/* Text
+   ========================================================================== */
+.search-results__text {
+    margin-bottom: 0;
+}
+
+
+/**
+* @doc docs/search-results.md
+* @section
+* @sectionof Structures
+*/

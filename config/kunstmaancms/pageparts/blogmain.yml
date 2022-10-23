@@ -1,0 +1,19 @@
+kunstmaan_page_part:
+    pageparts:
+        blogmain:
+            name: "Blog Main"
+            context: "blogmain"
+            types:
+                - { name: Audio, class: App\Entity\PageParts\AudioPagePart }
+                - { name: Button, class: App\Entity\PageParts\ButtonPagePart }
+                - { name: Download, class: App\Entity\PageParts\DownloadPagePart }
+                - { name: Header, class: App\Entity\PageParts\HeaderPagePart }
+                - { name: Image, class: App\Entity\PageParts\ImagePagePart }
+                - { name: IntroText, class: App\Entity\PageParts\IntroTextPagePart }
+                - { name: Line, class: App\Entity\PageParts\LinePagePart }
+                - { name: Link, class: App\Entity\PageParts\LinkPagePart }
+                - { name: RawHtml, class: App\Entity\PageParts\RawHtmlPagePart }
+                - { name: Text, class: App\Entity\PageParts\TextPagePart }
+                - { name: Toc, class: App\Entity\PageParts\TocPagePart }
+                - { name: ToTop, class: App\Entity\PageParts\ToTopPagePart }
+                - { name: Video, class: App\Entity\PageParts\VideoPagePart }

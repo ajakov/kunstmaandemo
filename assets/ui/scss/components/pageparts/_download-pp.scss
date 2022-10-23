@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Pageparts - Download pp
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+.download-pp {
+    @extend %icon--arrow-tail-down;
+
+    margin: $default-margin 0;
+
+    font-size: 15px;
+
+    &:before {
+        @include iconfont-reset();
+
+        margin-right: 10px;
+
+        font-size: 11px;
+    }
+
+    a {
+        color: $text-color;
+        font-weight: 600;
+    }
+}
+
+
+/**
+ * @doc docs/download-pp.md
+ * @section
+ * @sectionof Pageparts
+ */

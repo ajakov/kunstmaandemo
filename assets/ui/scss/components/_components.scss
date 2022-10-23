@@ -1,0 +1,97 @@
+/* ==========================================================================
+   Components
+
+   Never add styles directly to this file - set up imports
+   ========================================================================== */
+
+/* Blocks
+   ========================================================================== */
+@import "blocks/img";
+@import "blocks/hr";
+@import "blocks/lists";
+@import "blocks/links";
+@import "blocks/buttons";
+@import "blocks/tables";
+@import "blocks/img-icon";
+
+
+/* Forms
+   ========================================================================== */
+@import "forms/form";
+@import "forms/form-group";
+@import "forms/form-control";
+@import "forms/form-control-label";
+@import "forms/form-widget";
+@import "forms/radio-checkbox";
+
+
+/* Structures
+   ========================================================================== */
+@import "structures/cookie-consent";
+@import "structures/splash";
+@import "structures/submenu";
+@import "structures/blog-item";
+@import "structures/search-results";
+@import "structures/breadcrumb-nav";
+@import "structures/header-visual";
+@import "structures/newsletter";
+@import "structures/pagination";
+@import "structures/demosite-msg";
+@import "structures/filters";
+@import "structures/videolink";
+
+
+/* Header
+   ========================================================================== */
+@import "header/main-header";
+@import "header/main-nav";
+@import "header/site-nav";
+@import "header/language-nav";
+@import "header/contact-nav";
+@import "header/search-form";
+
+
+/* Footer
+   ========================================================================== */
+@import "footer/main-footer";
+@import "footer/social-footer";
+@import "footer/sub-footer";
+
+
+/* Pageparts
+   ========================================================================== */
+@import "pageparts/button-pp";
+@import "pageparts/text-pp";
+@import "pageparts/introtext-pp";
+@import "pageparts/image-pp";
+@import "pageparts/link-pp";
+@import "pageparts/download-pp";
+@import "pageparts/header-pp";
+@import "pageparts/totop-pp";
+@import "pageparts/service-pp";
+@import "pageparts/video-pp";
+
+
+/* Vendors
+   ========================================================================== */
+@import "vendors/bootstrap-components/grid";
+
+/**
+ * @section Blocks
+ * @page Index
+ */
+
+/**
+ * @section Pageparts
+ * @page Index
+ */
+
+/**
+ * @section Structures
+ * @page Index
+ */
+
+/**
+ * @section Forms
+ * @page Index
+ */

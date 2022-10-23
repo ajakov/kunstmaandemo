@@ -1,0 +1,93 @@
+/* ==========================================================================
+   Forms - Form control
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+.form-control {
+    display: block;
+    width: 100%;
+    max-width: 460px;
+    min-height: 45px;
+    padding: 0 1em;
+
+    border: 1px solid $hr-color;
+
+    font-weight: 400;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:focus,
+    &.form-control--filled {
+        border-color: $brand-primary;
+    }
+}
+
+
+/* Input
+   ========================================================================== */
+.form-control--input {}
+
+
+/* Textarea
+   ========================================================================== */
+.form-control--textarea {
+    max-width: none;
+    min-height: 100px;
+    padding: 10px;
+}
+
+
+/* Select
+   ========================================================================== */
+.form-control--select {
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    height: 40px;
+    padding-right: 40px;
+
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+
+    border: none;
+    border-radius: 0;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    font-size: 13px;
+
+    &:focus,
+    &:valid {
+        opacity: 1;
+    }
+}
+
+
+/**
+ * @section Form control
+ * @sectionof Forms
+ */
+
+/**
+ * @doc docs/input-text.md
+ * @section
+ * @sectionof Forms.Form control
+ */
+
+/**
+ * @doc docs/input-textarea.md
+ * @section
+ * @sectionof Forms.Form control
+ */
+
+/**
+ * @doc docs/input-select.md
+ * @section
+ * @sectionof Forms.Form control
+ */

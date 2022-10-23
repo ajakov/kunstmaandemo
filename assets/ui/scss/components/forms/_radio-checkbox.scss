@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Forms - Radio buttons | Checkboxes
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+.radio,
+.checkbox {
+    position: relative;
+
+    input {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        opacity: 0;
+    }
+
+    label {
+        position: relative;
+
+        display: inline-block;
+        padding-left: 30px;
+
+        &:before {
+            content: " ";
+
+            position: absolute;
+            top: 4px;
+            left: 0;
+
+            width: 18px;
+            height: 18px;
+
+            border: 1px solid $hr-color;
+        }
+    }
+
+    input:checked ~ label {
+        &:before {
+            background: $brand-primary;
+            box-shadow: inset 0 0 0 4px $white;
+        }
+    }
+}
+
+
+/* Checkbox
+   ========================================================================== */
+.checkbox {}
+
+
+/* Radiobuttons
+   ========================================================================== */
+.radio {
+    label {
+        &:before {
+            border-radius: 100%;
+        }
+    }
+}
+
+
+/**
+ * @doc docs/checkboxes.md
+ * @section
+ * @sectionof Forms.Form control
+ */
+
+/**
+ * @doc docs/radiobuttons.md
+ * @section
+ * @sectionof Forms.Form control
+ */

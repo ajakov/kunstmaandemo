@@ -1,0 +1,25 @@
+kunstmaan_page_part:
+    pageparts:
+        form:
+            name: Form
+            context: main
+            types:
+                - { name: 'Single Line text input', class: Kunstmaan\FormBundle\Entity\PageParts\SingleLineTextPagePart }
+                - { name: 'Multi Line text input', class: Kunstmaan\FormBundle\Entity\PageParts\MultiLineTextPagePart }
+                - { name: 'Email input', class: Kunstmaan\FormBundle\Entity\PageParts\EmailPagePart }
+                - { name: 'File upload', class: Kunstmaan\FormBundle\Entity\PageParts\FileUploadPagePart }
+                - { name: 'Choice input', class: Kunstmaan\FormBundle\Entity\PageParts\ChoicePagePart }
+                - { name: 'Submit button', class: Kunstmaan\FormBundle\Entity\PageParts\SubmitButtonPagePart }
+                - { name: Audio, class: App\Entity\PageParts\AudioPagePart }
+                - { name: Button, class: App\Entity\PageParts\ButtonPagePart }
+                - { name: Download, class: App\Entity\PageParts\DownloadPagePart }
+                - { name: Header, class: App\Entity\PageParts\HeaderPagePart }
+                - { name: Image, class: App\Entity\PageParts\ImagePagePart }
+                - { name: IntroText, class: App\Entity\PageParts\IntroTextPagePart }
+                - { name: Line, class: App\Entity\PageParts\LinePagePart }
+                - { name: Link, class: App\Entity\PageParts\LinkPagePart }
+                - { name: RawHtml, class: App\Entity\PageParts\RawHtmlPagePart }
+                - { name: Text, class: App\Entity\PageParts\TextPagePart }
+                - { name: Toc, class: App\Entity\PageParts\TocPagePart }
+                - { name: ToTop, class: App\Entity\PageParts\ToTopPagePart }
+                - { name: Video, class: App\Entity\PageParts\VideoPagePart }

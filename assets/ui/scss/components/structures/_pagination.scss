@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Structures - Pagination
+   ========================================================================== */
+
+.pagination {
+    ul {
+        padding: 0;
+
+        text-align: center;
+    }
+
+    li {
+        display: inline-block;
+
+        color: $grey--dark;
+
+        list-style: none;
+
+        a {
+            color: $grey--dark;
+
+            &:hover,
+            &:active,
+            &:focus {
+                color: $brand-primary;
+            }
+        }
+
+        + li {
+            margin-left: 35px;
+        }
+    }
+
+    .active {
+        width: 40px;
+        height: 40px;
+
+        background: $brand-primary;
+
+        border-radius: 100%;
+
+        span {
+            color: $white;
+            line-height: 2.5;
+        }
+    }
+}
+
+.pagination__direction-icon {
+    @extend %icon;
+
+    font-size: .6875em;
+}
+
+
+/**
+* @doc docs/pagination.md
+* @section
+* @sectionof Structures
+*/

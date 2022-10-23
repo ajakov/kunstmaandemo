@@ -1,0 +1,6 @@
+kunstmaan_page_part:
+    pageparts:
+        section1:
+            name: "Section 1"
+            context: "section1"
+            extends: "main"

@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Header - Language nav
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+.site-nav {
+    margin: 32px 0 0;
+
+    @media (min-width: $screen-md-min) {
+        margin: 0 32px 0 0;
+    }
+}
+
+.site-nav--desktop {
+    float: left;
+
+    display: inline-block;
+}
+
+
+/* Item
+   ========================================================================== */
+// General
+.site-nav__item {
+    display: block;
+    padding: .3em 1em;
+
+    color: $white;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 2.3;
+
+    @media (min-width: $screen-md-min) {
+        display: inline-block;
+        padding: .5em 1em;
+        margin: 0 5px 0 0;
+
+        color: $text-color;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+}
+
+// Active
+.site-nav__item--active {
+    background-color: $grey--darker;
+
+    color: $brand-primary;
+
+    @media (min-width: $screen-md-min) {
+        background: transparent;
+
+        color: $brand-primary;
+    }
+}
+
+// CTA
+.site-nav__item--cta {
+    color: $brand-primary;
+}
+
+.site-nav__item--cta__icon {
+    display: inline-block;
+    margin-left: 5px;
+
+    font-size: .5em;
+    vertical-align: middle;
+}

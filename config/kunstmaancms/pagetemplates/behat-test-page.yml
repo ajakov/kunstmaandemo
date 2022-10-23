@@ -1,0 +1,6 @@
+kunstmaan_page_part:
+    pagetemplates:
+        behat-test-page:
+            name: "Behat test page"
+            rows: []
+            template: ""

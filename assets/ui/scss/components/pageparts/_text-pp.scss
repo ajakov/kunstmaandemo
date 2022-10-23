@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Pageparts - Text pp
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+.text-pp {
+    max-width: 720px;
+    margin: $default-margin 0;
+
+    ul {
+        li {
+            position: relative;
+
+            padding-left: 1em;
+
+            &:before {
+                content: "•";
+
+                position: absolute;
+                top: 3px;
+                left: 0;
+
+                color: $brand-primary;
+                font-size: .8em;
+            }
+        }
+    }
+
+    ol {
+        padding-left: 25px;
+    }
+
+    ul,
+    ol {
+        li {
+            margin-bottom: 7px;
+
+            line-height: 1.5;
+        }
+    }
+}
+
+
+/**
+* @doc docs/text-pp.md
+* @section
+* @sectionof Pageparts
+*/

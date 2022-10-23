@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Header - Breadcrumb navigation
+   ========================================================================== */
+
+/* General
+   ========================================================================== */
+.breadcrumb {
+    @media (min-width: $screen-md-min) {
+        margin: 25px 0 0;
+    }
+}
+
+
+/* Item
+   ========================================================================== */
+.breadcrumb__item {
+    display: inline-block;
+
+    font-size: 14px;
+    font-weight: 400;
+
+    .search-results__breadcrumb__item--current {
+        font-weight: 600;
+    }
+}
+
+
+/* Icon
+   ========================================================================== */
+.breadcrumb__icon {
+    margin: 0 10px;
+
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+
+/**
+* @doc docs/breadcrumb.md
+* @section
+* @sectionof Structures
+*/

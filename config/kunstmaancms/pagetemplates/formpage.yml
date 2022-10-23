@@ -1,0 +1,8 @@
+kunstmaan_page_part:
+    pagetemplates:
+        formpage:
+            name: "Form page"
+            rows:
+                - regions:
+                    - { name: "main", span: 12 }
+            template: "Pages\\FormPage\\pagetemplate.html.twig"
