@@ -1,10 +1,11 @@
 import gulp from 'gulp';
-import sass from 'gulp-sass';
 import notifier from 'node-notifier';
 import sourcemaps from 'gulp-sourcemaps';
 import postcss from 'gulp-postcss';
 import cssnano from 'cssnano';
 import autoprefixer from 'autoprefixer';
+
+const sass = require('gulp-sass')(require('sass'));
 
 export function createCssLocalTask({
     src = undefined,
