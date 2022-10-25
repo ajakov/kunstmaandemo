@@ -7,7 +7,7 @@ kunstmaan_multi_domain:
             default_locale: en
             locales:
                 - { uri_locale: 'en', locale: 'en' }
-                - { uri_locale: 'fr', locale: 'fr' }
+                - { uri_locale: 'de', locale: 'de' }
             root: homepage
 
         second:
@@ -16,7 +16,7 @@ kunstmaan_multi_domain:
             default_locale: en
             locales:
                 - { uri_locale: 'en', locale: 'en' }
-                - { uri_locale: 'fr', locale: 'fr' }
+                - { uri_locale: 'de', locale: 'de' }
             root: homepage_second
 
         third:
@@ -25,5 +25,5 @@ kunstmaan_multi_domain:
             default_locale: en
             locales:
                 - { uri_locale: 'en', locale: 'en' }
-                - { uri_locale: 'fr', locale: 'fr' }
+                - { uri_locale: 'de', locale: 'de' }
             root: homepage_third
