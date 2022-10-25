@@ -49,8 +49,7 @@
     <div class="container-fluid">
         <header class="main-header main-header--desktop {% block extra_main_header_class %}{% endblock %}">
             {# Logo #}
-            {% set homepagePageNode = nodemenu.getNodeByInternalName('homepage') %}
-            <a href="{{ path('_slug', { 'url': homepagePageNode.slug }) }}" class="main-header__logo">
+            <a href="/" class="main-header__logo">
                 <img src="/frontend/img/demosite/logo-thecrew.svg" alt="The Crew" class="main-header__logo__img">
             </a>
 

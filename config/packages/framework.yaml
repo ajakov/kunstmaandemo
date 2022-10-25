@@ -17,6 +17,12 @@ framework:
     php_errors:
         log: true
 
+    # trust *all* requests (the 'REMOTE_ADDR' string is replaced at
+    # run time by $_SERVER['REMOTE_ADDR'])
+    trusted_proxies: '127.0.0.1,REMOTE_ADDR'
+    # trust *all* "X-Forwarded-*" headers
+    trusted_headers: [ 'x-forwarded-for', 'x-forwarded-host', 'x-forwarded-proto', 'x-forwarded-port', 'x-forwarded-prefix' ]
+
 when@test:
     framework:
         test: true

@@ -34,6 +34,7 @@
         "kunstmaan/media-bundle": "6.1.*",
         "kunstmaan/media-pagepart-bundle": "6.1.*",
         "kunstmaan/menu-bundle": "6.1.*",
+        "kunstmaan/multidomain-bundle": "^6.1",
         "kunstmaan/node-bundle": "6.1.*",
         "kunstmaan/node-search-bundle": "6.1.*",
         "kunstmaan/pagepart-bundle": "6.1.*",

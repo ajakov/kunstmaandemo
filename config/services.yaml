@@ -23,3 +23,12 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+    kunstmaan_node.multi_slugrouter:
+        class: Kunstmaan\MultiDomainBundle\Router\DomainBasedLocaleRouter
+        arguments:
+            - '@kunstmaan_admin.domain_configuration'
+            - '@request_stack'
+            - '@doctrine.orm.entity_manager'
+            - '%kunstmaan_admin.admin_prefix%'
+        tags:
+            - { name: router, priority: 2 }

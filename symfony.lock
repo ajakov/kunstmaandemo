@@ -163,6 +163,9 @@
             "config/routes/kunstmaan_menu.yaml"
         ]
     },
+    "kunstmaan/multidomain-bundle": {
+        "version": "6.1.7"
+    },
     "kunstmaan/node-bundle": {
         "version": "6.1",
         "recipe": {

@@ -44,4 +44,5 @@ return [
     Symfony\Bundle\DebugBundle\DebugBundle::class => ['dev' => true],
     Symfony\Bundle\MakerBundle\MakerBundle::class => ['dev' => true],
     Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle::class => ['all' => true],
+    Kunstmaan\MultiDomainBundle\KunstmaanMultiDomainBundle::class => ['all' => true],
 ];

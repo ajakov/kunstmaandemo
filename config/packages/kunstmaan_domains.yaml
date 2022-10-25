@@ -1,0 +1,29 @@
+kunstmaan_multi_domain:
+    hosts:
+        first:
+            host: first-kunt.ajakov.dev
+            aliases: [localhost]
+            type: multi_lang
+            default_locale: en
+            locales:
+                - { uri_locale: 'en', locale: 'en' }
+                - { uri_locale: 'fr', locale: 'fr' }
+            root: homepage
+
+        second:
+            host: second-kunt.ajakov.dev
+            type: multi_lang
+            default_locale: en
+            locales:
+                - { uri_locale: 'en', locale: 'en' }
+                - { uri_locale: 'fr', locale: 'fr' }
+            root: homepage_second
+
+        third:
+            host: third-kunt.ajakov.dev
+            type: multi_lang
+            default_locale: en
+            locales:
+                - { uri_locale: 'en', locale: 'en' }
+                - { uri_locale: 'fr', locale: 'fr' }
+            root: homepage_third

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64dbed2db781fa6c57f0e8cae162eec2",
+    "content-hash": "276a31abaeb78721aaa6dbb201215da8",
     "packages": [
         {
             "name": "babdev/pagerfanta-bundle",
@@ -3728,6 +3728,66 @@
             "support": {
                 "issues": "https://github.com/Kunstmaan/KunstmaanMenuBundle/issues",
                 "source": "https://github.com/Kunstmaan/KunstmaanMenuBundle/tree/6.1.7"
+            },
+            "time": "2022-09-22T14:52:24+00:00"
+        },
+        {
+            "name": "kunstmaan/multidomain-bundle",
+            "version": "6.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kunstmaan/KunstmaanMultiDomainBundle.git",
+                "reference": "8e83721cab387b480a31cc0147fea16742743af3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kunstmaan/KunstmaanMultiDomainBundle/zipball/8e83721cab387b480a31cc0147fea16742743af3",
+                "reference": "8e83721cab387b480a31cc0147fea16742743af3",
+                "shasum": ""
+            },
+            "require": {
+                "kunstmaan/admin-bundle": "^5.9|^6.0",
+                "kunstmaan/adminlist-bundle": "^5.9|^6.0",
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "matthiasnoback/symfony-config-test": "^4.0",
+                "matthiasnoback/symfony-dependency-injection-test": "^4.1",
+                "phpunit/phpunit": "^8.5",
+                "symfony/phpunit-bridge": "^5.3"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-6.x": "6.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kunstmaan\\MultiDomainBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kunstmaan CMS Team",
+                    "email": "cms@kunstmaan.be",
+                    "homepage": "https://kunstmaancms.be"
+                }
+            ],
+            "description": "This bundle makes it possible to manage multiple websites from within KunstmaanCMS.",
+            "homepage": "https://github.com/Kunstmaan/KunstmaanMultiDomainBundle",
+            "keywords": [
+                "kunstmaan",
+                "multidomain",
+                "navigation",
+                "subsites"
+            ],
+            "support": {
+                "source": "https://github.com/Kunstmaan/KunstmaanMultiDomainBundle/tree/6.1.7"
             },
             "time": "2022-09-22T14:52:24+00:00"
         },
